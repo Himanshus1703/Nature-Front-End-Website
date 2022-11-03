@@ -1,0 +1,121 @@
+nav{
+    display: flex;
+
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    padding: 15px 15px;
+    color: #000000;
+}
+
+
+nav ul li a:hover{
+    color: #666;
+}
+
+h2{
+    font-size: 34px;
+    text-align: center;
+    justify-content: center;
+    font-family: "lato",sans-serif;
+    display: flex;
+    padding: 0 15px;
+}
+
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(img/img1.jpg);
+    min-height: 100%;
+  
+}
+
+.pimg6{
+    background-image: url(img/img6.jpg);
+    min-height: 100%;
+  
+}
+
+.pimg2{
+    background-image: url(img/img2.jpg);
+    min-height: 600px;
+  
+}
+
+.pimg3{
+    background-image: url(img/img3.jpg);
+    min-height: 600px;
+  
+}
+
+.pimg1 ,.pimg2 ,.pimg3,.pimg6{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.textbg{
+background: rgb(192, 184, 184);
+color: white;
+padding: 20px;
+}
+
+.textbg1{
+background: rgb(0, 0, 0);
+color: white;
+padding: 20px;
+}
+
+.textbg2{
+background: rgb(192, 184, 184);
+color: white;
+padding: 20px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: rgb(255, 255, 255);
+    color: rgb(131, 126, 126);
+}
+
+.section-dark{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.section-down{
+    background-color: rgb(255, 255, 255);
+    color: rgb(131, 126, 126);
+}
